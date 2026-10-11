@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Fog"
+  short_description: "Build fogged glass with writing and broad wiping"
+  default_prompt: "Use $simulate-natural-fog to create a temporary canvas on fogged glass with local clearing and recovery."

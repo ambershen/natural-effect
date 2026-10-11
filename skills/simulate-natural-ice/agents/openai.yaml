@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Ice"
+  short_description: "Build subtle ice friction, fractures, and sound"
+  default_prompt: "Use $simulate-natural-ice to create a thin ice surface with faint friction writing and growing fractures."

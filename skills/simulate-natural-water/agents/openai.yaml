@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Water"
+  short_description: "Build responsive ripples, wakes, and water motion"
+  default_prompt: "Use $simulate-natural-water to build an interactive water surface that responds naturally to touch."

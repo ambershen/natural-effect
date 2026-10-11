@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Motion Interaction"
+  short_description: "Map touch and hand motion to material responses"
+  default_prompt: "Use $natural-motion-interaction to map hand gestures to stable contact and movement signals for an interactive material."
