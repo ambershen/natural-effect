@@ -6,13 +6,14 @@ These skills capture material behavior, implementation patterns, sound mappings,
 
 The initial collection grew out of [States of Water](https://states-of-water-alpha.vercel.app/), an exploration of water, ice, and fog as interactive surfaces.
 
-## Initial skills
+## Skills
 
 | Skill | Focus |
 | --- | --- |
 | [simulate-natural-water](skills/simulate-natural-water/SKILL.md) | Ripples, directional wakes, stirring, inertia, reflection, and refraction. |
 | [simulate-natural-ice](skills/simulate-natural-ice/SKILL.md) | Faint friction writing, irregular growing fractures, and restrained material sound. |
 | [simulate-natural-fog](skills/simulate-natural-fog/SKILL.md) | Fogged glass, narrow writing, broad wiping, and gradual recovery. |
+| [simulate-natural-snow](skills/simulate-natural-snow/SKILL.md) | Dense powder texture, six-arm snowfall, dwell compression, settling, and fresh coverage. |
 | [natural-motion-interaction](skills/natural-motion-interaction/SKILL.md) | Touch and camera input, contact lifecycles, gesture mapping, smoothing, and coordinate alignment. |
 
 Material skills can be used independently. The motion skill provides shared input guidance while leaving each material free to respond differently.
@@ -41,7 +42,7 @@ All skill content is written in English. Numeric values describe particular stud
 
 ## Scope and source material
 
-This repository contains skill instructions and reference notes. The original application code, tracking models, and audio assets are maintained separately in [States of Water](https://github.com/ambershen/dirty-window). Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
+This repository contains skill instructions, reference notes, and original reusable snowflake SVG assets. The original application code, tracking models, and audio assets are maintained separately in [States of Water](https://github.com/ambershen/dirty-window). Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
 
 Reference notes distinguish accepted behavior from experiments. Breath detection remains experimental, and source or build checks alone do not establish natural sound, reliable gesture recognition, or physical accuracy.
 

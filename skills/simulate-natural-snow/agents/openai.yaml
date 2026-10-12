@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simulate Natural Snow"
+  short_description: "Soft powder snow, snowfall, and held impressions"
+  default_prompt: "Use $simulate-natural-snow to create a white, dense powder surface with readable six-arm snowfall and impressions that deepen while held."
