@@ -20,7 +20,7 @@ Derive reflection or refraction from surface slopes, with restrained highlights 
 
 Use elapsed seconds for propagation, damping, and integration. For linear damping, `exp(-rate * dt)` avoids frame-rate-dependent decay. Clamp or substep long integration gaps without slowing contact tracking. Correct for aspect ratio in distance calculations. Bound active contacts and retained wakes, and cap render resolution independently of input precision.
 
-Camera reflections and audio response are optional. Keep image cropping and mirroring consistent with interaction coordinates. If sound is requested, distinguish recorded water from synthesized audio, retain source credits, and tie gain and events to motion rather than a constant looping splash. Resume audio on a user gesture and clean up on interruption.
+Camera reflections and audio response are optional. Keep image cropping and mirroring consistent with interaction coordinates. If sound is requested, make sound part of movement: contact size, speed, direction changes, and release should shape its response. Gesture-driven synthesis may use recorded source layers, filtering, envelopes, and event scheduling; describe the method accurately and retain source credits. A fingertip and broad hand can have different contact scales without arbitrarily changing pitch. Sustain sound through continuous lateral motion and fade naturally on stopping; avoid cooldowns that create silent gaps, repeated identical splashes, or sweeping tones. Audition against the intended setting: generic water audio may not read as a quiet pond. Resume audio on a user gesture and clean up on interruption.
 
 ## Verification
 

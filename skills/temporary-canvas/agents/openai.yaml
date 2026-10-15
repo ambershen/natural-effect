@@ -1,0 +1,4 @@
+interface:
+  display_name: "Temporary Canvas"
+  short_description: "Expressive drawing across fog, sand, and snow"
+  default_prompt: "Use $temporary-canvas to develop an expressive surface with material-specific gestures and trace behavior."

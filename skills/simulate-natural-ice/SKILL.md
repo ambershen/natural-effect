@@ -43,3 +43,7 @@ Use a browser preview for visible interaction checks and a build/type check appr
 ## Related interaction and material skills
 
 When designing a camera or shared input adapter, `natural-motion-interaction` can help with coordinate alignment, contact identity, smoothing, and gesture transitions. It is optional; this ice skill remains self-contained. `simulate-natural-water` covers liquid surface response, and `simulate-natural-fog` covers clear writing and wiping on condensation. Preserve ice's faint accumulated friction marks rather than importing fog's clear erase behavior.
+
+## Preserve lessons across iterations
+
+Record separate outcomes for glide, repeated rubbing, and sustained load, including the audible response. Keep accepted gray-white appearance and faint writing distinct from proposed fracture tuning. Do not consume a fracture sound event before its buffer is ready or playback is eligible; retrying should remain possible without advancing the audible damage stage. Check a cold audio start as well as warmed playback.

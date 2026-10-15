@@ -34,3 +34,7 @@ Coarse frame-difference motion can drive ambient energy, but it cannot establish
 Test idle hands, fast sweeps, slow tracing, threshold flutter, action changes, two hands crossing, one hand leaving, reacquisition, portrait/landscape resizing, and camera restart. Test multi-touch lift and cancel independently. Inspect accidental strokes, jump lines, duplicate processing, and runaway velocity after long gaps. Report untested hardware or recognition behavior plainly.
 
 For concrete adapters and their limitations, read [references/motion-study.md](references/motion-study.md). Material skills such as `simulate-natural-water`, `simulate-natural-ice`, and `simulate-natural-fog` are optional companions.
+
+## Reusable comparison inputs
+
+Keep a short input study for tap, slow stroke, fast swipe, hold, two-finger compression, and release. Record timestamp units, viewport transform, device, and load source alongside the result. Use the same sequence across materials while allowing each material to ignore unsupported actions. A future replay fixture can compare revisions, but synthetic replay cannot validate camera recognition.

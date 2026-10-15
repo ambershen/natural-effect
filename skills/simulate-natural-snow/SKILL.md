@@ -29,3 +29,7 @@ Check the untouched surface, fast trace, stationary hold, overlapping strokes, r
 Inspect the running effect at phone and desktop sizes, including the actual shader compilation and texture loading. A TypeScript or bundler pass does not validate GLSL execution, appearance, frame rate, or camera accuracy. Report missing visual or physical-device checks explicitly. User approval is evidence of an accepted aesthetic, not scientific realism.
 
 Keep skill content and reusable metadata in English. Do not bundle tracking models, unrelated application code, or third-party example source merely to save an implementation pattern.
+
+## Preserve lessons across iterations
+
+Record texture, compression, displaced rim material, settling, and replenishment as separate controls. Compare a moving trace with a held contact and inspect what remains after release. Keep the documented powder appearance separate from new sound experiments: this skill does not establish an accepted snow audio recipe. Any new sound must be auditioned against the contact scale and stop appropriately with movement.

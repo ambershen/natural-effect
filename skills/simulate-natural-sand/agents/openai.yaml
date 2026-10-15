@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simulate Natural Sand"
+  short_description: "Granular drawing, displaced rims, and settling"
+  default_prompt: "Use $simulate-natural-sand to develop an expressive surface with material-specific gestures and trace behavior."

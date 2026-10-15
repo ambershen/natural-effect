@@ -29,3 +29,7 @@ Breath input is a separate optional adapter. Microphone noise alone cannot ident
 Sweep density and temperature through their full ranges, including near-zero density and maximum temperature. Check for fixed light spots, residual particles, halos, and droplets appearing unexpectedly. Test narrow writing, broad wiping, release, recovery, reset, resize, and camera crop alignment. Check repeated mode switches and interruption for connecting lines. Cache brush textures and bound stroke history or compact it for long sessions.
 
 For the accepted implementation, parameters, and unfinished experiments, read [references/fog-study.md](references/fog-study.md). `natural-motion-interaction` can guide camera adapters when available, but is not required.
+
+## Preserve lessons across iterations
+
+Compare a complete word or heart through its entire recovery, not only one short stroke. Record the release time, first visible recovery, and final disappearance; evaluate local contrast against the actual background. Keep the accepted no-droplet version separate from any proposed gravity-trail experiment. If that experiment is requested, judge local clearing/recovery around moving moisture rather than adding decorative drops or translating the whole drawing downward.

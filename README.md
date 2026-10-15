@@ -4,7 +4,13 @@ A growing collection of skills for creating interactive natural materials and mo
 
 These skills capture material behavior, implementation patterns, sound mappings, and lessons from iteration. They guide a coding agent's decisions; they are not a rendering library or a physically validated simulation package.
 
-The initial collection grew out of [States of Water](https://states-of-water-alpha.vercel.app/), an exploration of water, ice, and fog as interactive surfaces.
+The collection grew out of [Natural Effects](https://naturaleffects.vercel.app/), originally States of Water: an exploration of familiar natural interactions as expressive surfaces. It now includes water, ice, condensation, sand, and snow.
+
+## Three connected layers
+
+1. **Interaction:** turn sensed movement into stable contact signals.
+2. **Materials:** define how each surface responds, sounds, and changes over time.
+3. **Creative recipes:** combine these behaviors into drawing and storytelling tools.
 
 ## Skills
 
@@ -13,6 +19,8 @@ The initial collection grew out of [States of Water](https://states-of-water-alp
 | [simulate-natural-water](skills/simulate-natural-water/SKILL.md) | Ripples, directional wakes, stirring, inertia, reflection, and refraction. |
 | [simulate-natural-ice](skills/simulate-natural-ice/SKILL.md) | Faint friction writing, irregular growing fractures, and restrained material sound. |
 | [simulate-natural-fog](skills/simulate-natural-fog/SKILL.md) | Fogged glass, narrow writing, broad wiping, and gradual recovery. |
+| [simulate-natural-sand](skills/simulate-natural-sand/SKILL.md) | Granular furrows, displaced rims, settling, and movement-driven sound. |
+| [temporary-canvas](skills/temporary-canvas/SKILL.md) | A creative recipe connecting condensation, sand, and snow through temporary drawing. |
 | [simulate-natural-snow](skills/simulate-natural-snow/SKILL.md) | Dense powder texture, six-arm snowfall, dwell compression, settling, and fresh coverage. |
 | [natural-motion-interaction](skills/natural-motion-interaction/SKILL.md) | Touch and camera input, contact lifecycles, gesture mapping, smoothing, and coordinate alignment. |
 
@@ -47,3 +55,7 @@ This repository contains skill instructions, reference notes, and original reusa
 Reference notes distinguish accepted behavior from experiments. Breath detection remains experimental, and source or build checks alone do not establish natural sound, reliable gesture recognition, or physical accuracy.
 
 Future skills can extend the collection to other materials and phenomena as working experiments provide useful, reusable lessons.
+
+## Continuing the studies
+
+Use the [iteration workflow](docs/iteration-workflow.md) to capture references, compare gestures, and promote reviewed lessons into skills. Keep accepted prototypes and open experiments separate. These documents describe reusable decisions; executable modules remain in the source application.
