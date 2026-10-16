@@ -5,7 +5,7 @@ description: Build or refine interactive water surfaces with ripples, directiona
 
 # Simulate Natural Water
 
-Translate contact into a coherent moving surface. Establish the intended scale and setting from the request: a quiet pond, shallow pool, stream, and ocean need different motion. The States of Water study is an artistic surface model, not a fluid dynamics solver.
+Translate contact into a coherent moving surface. Establish the intended scale and setting from the request: a quiet pond, shallow pool, stream, and ocean need different motion. The Natural Effects study is an artistic surface model, not a fluid dynamics solver.
 
 ## Surface response
 
@@ -26,4 +26,4 @@ Camera reflections and audio response are optional. Keep image cropping and mirr
 
 Compare a tap, stationary hold, slow drag, fast sweep, sharp turn, release, two independent contacts, and reset. Check portrait and landscape alignment and a long frame gap. A release should leave decaying surface motion without continued input emission. Inspect mobile frame pacing and graphics failure recovery. Report observed checks separately from physical realism or device-specific audio quality.
 
-For source locations, useful starting values, and the current model's limits, read [references/water-study.md](references/water-study.md) when adapting States of Water. Gesture adapters can be designed with `natural-motion-interaction` when available; this skill does not require it.
+For source locations, useful starting values, and the current model's limits, read [references/water-study.md](references/water-study.md) when adapting the Natural Effects water study. Gesture adapters can be designed with `natural-motion-interaction` when available; this skill does not require it.

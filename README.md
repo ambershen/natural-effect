@@ -4,7 +4,15 @@ A growing collection of skills for creating interactive natural materials and mo
 
 These skills capture material behavior, implementation patterns, sound mappings, and lessons from iteration. They guide a coding agent's decisions; they are not a rendering library or a physically validated simulation package.
 
-The collection grew out of [Natural Effects](https://naturaleffects.vercel.app/), originally States of Water: an exploration of familiar natural interactions as expressive surfaces. It now includes water, ice, condensation, sand, and snow.
+The collection grew out of [Natural Effects](https://naturaleffects.vercel.app/) (first titled States of Water): an exploration of familiar natural interactions as expressive surfaces. It now includes water, ice, condensation, sand, and snow.
+
+| Water | Ice | Sand | Snow |
+| --- | --- | --- | --- |
+| ![Water ripples and wakes](docs/media/water.jpg) | ![Ice with irregular fractures](docs/media/ice.jpg) | ![A heart drawn in sand](docs/media/sand.jpg) | ![Letters pressed into snow](docs/media/snow.jpg) |
+
+Stills from the Natural Effects app. The project began with a real fogged car window:
+
+![A heart drawn on a fogged car window](docs/media/fog.jpg)
 
 ## Three connected layers
 
@@ -20,11 +28,30 @@ The collection grew out of [Natural Effects](https://naturaleffects.vercel.app/)
 | [simulate-natural-ice](skills/simulate-natural-ice/SKILL.md) | Faint friction writing, irregular growing fractures, and restrained material sound. |
 | [simulate-natural-fog](skills/simulate-natural-fog/SKILL.md) | Fogged glass, narrow writing, broad wiping, and gradual recovery. |
 | [simulate-natural-sand](skills/simulate-natural-sand/SKILL.md) | Granular furrows, displaced rims, settling, and movement-driven sound. |
-| [temporary-canvas](skills/temporary-canvas/SKILL.md) | A creative recipe connecting condensation, sand, and snow through temporary drawing. |
 | [simulate-natural-snow](skills/simulate-natural-snow/SKILL.md) | Dense powder texture, six-arm snowfall, dwell compression, settling, and fresh coverage. |
 | [natural-motion-interaction](skills/natural-motion-interaction/SKILL.md) | Touch and camera input, contact lifecycles, gesture mapping, smoothing, and coordinate alignment. |
+| [temporary-canvas](skills/temporary-canvas/SKILL.md) | A creative recipe connecting condensation, sand, and snow through temporary drawing. |
 
 Material skills can be used independently. The motion skill provides shared input guidance while leaving each material free to respond differently.
+
+## Use with Claude Code
+
+Install all seven skills as a plugin (Claude Code 2.1.275 or later):
+
+```text
+/plugin install natural-effects --marketplace ambershen/natural-effect
+```
+
+On older versions, add the marketplace first, then install:
+
+```text
+/plugin marketplace add ambershen/natural-effect
+/plugin install natural-effects@natural-effect
+```
+
+Plugin skills are namespaced, for example `/natural-effects:simulate-natural-water`. Claude also loads a skill on its own when your request matches its description.
+
+To install individual skills instead, copy folders from `skills/` into `~/.claude/skills/` (all your projects) or `.claude/skills/` (one project).
 
 ## Use with Codex
 
@@ -50,7 +77,7 @@ All skill content is written in English. Numeric values describe particular stud
 
 ## Scope and source material
 
-This repository contains skill instructions, reference notes, and original reusable snowflake SVG assets. The original application code, tracking models, and audio assets are maintained separately in [States of Water](https://github.com/ambershen/dirty-window). Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
+This repository contains skill instructions, reference notes, and original reusable snowflake SVG assets. The original application code, tracking models, and audio assets are maintained separately in the [Natural Effects application](https://github.com/ambershen/dirty-window). Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
 
 Reference notes distinguish accepted behavior from experiments. Breath detection remains experimental, and source or build checks alone do not establish natural sound, reliable gesture recognition, or physical accuracy.
 
@@ -59,3 +86,7 @@ Future skills can extend the collection to other materials and phenomena as work
 ## Continuing the studies
 
 Use the [iteration workflow](docs/iteration-workflow.md) to capture references, compare gestures, and promote reviewed lessons into skills. Keep accepted prototypes and open experiments separate. These documents describe reusable decisions; executable modules remain in the source application.
+
+## License
+
+[MIT](LICENSE). Reference photos and audio named in the study notes belong to their creators and are linked, not included.

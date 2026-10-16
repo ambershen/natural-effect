@@ -25,6 +25,10 @@ Tune brush width, displacement, slope threshold, settling rate, and grain contra
 
 Use a credited grain recording when appropriate, then shape playback with movement speed and contact area. A quiet continuous section with a crossfaded seam can support sustained movement; fade to silence on stopping. Avoid triggering a new pour on every input frame. Unlock audio during a user gesture, support mute, and clean up on interruption. Listening is needed to judge whether the sound matches the scale of the gesture.
 
+## Study preset (Natural Effects)
+
+These are the accepted choices of the original study, not general rules: dry, loose desert sand with warped wind ripples; marks persist until redistributed; one credited CC0 pour recording shaped by speed and contact area (see the study record).
+
 ## Verify
 
 Compare tap, slow stroke, fast swipe, hold, two-contact compression, and release. Compression is a deliberate mapping to define, not an automatically supported pinch gesture. Check overlapping strokes, rim settling, volume accounting, frame-rate consistency, reset, and phone orientation. Check audio startup and continuous movement on the target device. Report visual, listening, and camera checks separately from build success.

@@ -4,7 +4,7 @@ Captured from the user-accepted direction in the dirty-window project, October 9
 
 ## Source map
 
-Source project: [States of Water](https://github.com/ambershen/dirty-window). Paths below are relative to that project, whose application code is not bundled with this skill. Inspect the available implementation before copying parameters.
+Source project: [Natural Effects application](https://github.com/ambershen/dirty-window). Paths below are relative to that project, whose application code is not bundled with this skill. Inspect the available implementation before copying parameters.
 
 - `src/ice.ts`: pointer contacts, load accumulation, render composition, reset, audio controls.
 - `src/effects/IceWriting.ts`: half-resolution friction mask and muted underwater light.

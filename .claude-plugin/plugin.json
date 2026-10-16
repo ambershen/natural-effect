@@ -1,0 +1,9 @@
+{
+  "name": "natural-effects",
+  "version": "0.1.0",
+  "description": "Agent skills for interactive natural materials: water, ice, fog, sand and snow, a shared touch and hand-tracking layer, and the Temporary Canvas recipe.",
+  "author": { "name": "Amber Shen" },
+  "homepage": "https://naturaleffects.vercel.app/",
+  "repository": "https://github.com/ambershen/natural-effect",
+  "license": "MIT"
+}

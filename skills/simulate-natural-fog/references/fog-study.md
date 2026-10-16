@@ -1,6 +1,6 @@
 # Fog window study reference
 
-Accepted source snapshot: October 10, 2026, commit `71a83b3` in the States of Water source project (`ambershen/dirty-window`). Entry: `?mode=steam` or `?mode=fog`. Inspect current files when adapting; older fog modules describe a different iteration.
+Accepted source snapshot: October 10, 2026, commit `71a83b3` in the Natural Effects source project (`ambershen/dirty-window`). Entry: `?mode=steam` or `?mode=fog`. Inspect current files when adapting; older fog modules describe a different iteration.
 
 ## Source map and composition
 
@@ -34,4 +34,4 @@ Test Dirty Level at 0%, 5%, and 100% with Temperature at 0%, 50%, and 100%. Near
 
 ## Source availability
 
-The source map refers to [States of Water](https://github.com/ambershen/dirty-window), a separate application. Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.
+The source map refers to [Natural Effects application](https://github.com/ambershen/dirty-window), a separate application. Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.

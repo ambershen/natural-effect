@@ -39,3 +39,24 @@ Untested behavior / next comparison:
 - Condensation: preserve the documented no-droplet default; any renewed droplet experiment needs separate evaluation of local recovery and timing.
 - Sound: audition movement transitions and interruption/resume on the intended phone; decoded buffers do not establish naturalness.
 - Projection: test scale, calibration, and full-body mappings as future experiments, not established capabilities of these skills.
+
+## Per-material comparisons to record
+
+- **Ice:** record glide, repeated rubbing, and sustained load separately, including the audible response. Keep the accepted gray-white appearance and faint writing distinct from proposed fracture tuning.
+- **Fog:** compare a complete word or heart through its whole recovery; record release time, first visible recovery, and final disappearance.
+- **Snow:** compare a moving trace with a held contact and inspect what remains after release. Keep the powder appearance separate from new sound experiments.
+
+## Writing or restructuring a skill
+
+Keep every `SKILL.md` in this order, leaving out sections that do not apply:
+
+1. Frontmatter: `name` (lowercase, hyphenated, matching the folder) and a `description` that says what the skill builds and when to use it.
+2. Intro: what the material is and what the model is not.
+3. Material and interaction.
+4. Appearance.
+5. Sound.
+6. Verification.
+7. Study preset (Natural Effects): the original study's aesthetic choices, labelled so they can be told apart from general guidance.
+8. Related skills and references.
+
+Write instructions for the agent using the skill. Notes about maintaining this repository belong in this document instead. Keep skill content and metadata in English. Do not bundle tracking models, unrelated application code, third-party example source, or audio files; link to sources and credit them.

@@ -1,0 +1,12 @@
+{
+  "name": "natural-effect",
+  "description": "Natural Effects agent skills by Amber Shen.",
+  "owner": { "name": "Amber Shen" },
+  "plugins": [
+    {
+      "name": "natural-effects",
+      "source": "./",
+      "description": "Agent skills for interactive natural materials: water, ice, fog, sand and snow, a shared touch and hand-tracking layer, and the Temporary Canvas recipe."
+    }
+  ]
+}
