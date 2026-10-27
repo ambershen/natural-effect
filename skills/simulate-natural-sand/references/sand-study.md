@@ -2,7 +2,7 @@
 
 ## Implementation evidence
 
-Source: [Natural Effects application](https://github.com/ambershen/dirty-window), `docs/SAND-SNOW-STUDY.md`, consulted October 15, 2026. Application code and recordings are maintained separately; inspect current source before copying parameters.
+Source: the Natural Effects application’s `docs/SAND-SNOW-STUDY.md` (private repository; live app: https://naturaleffects.vercel.app/), consulted October 15, 2026. Application code and recordings are maintained separately; if you have access, inspect current source before copying parameters.
 
 The documented prototype separates full-resolution WebGL grain from a bounded deformation grid. Warped wind ripples and broad height variation form the initial surface. Displacement and downhill relaxation conserve modeled volume. Dwell ramps load over roughly two seconds; faster movement unloads it. These are implementation choices, not universal material constants.
 

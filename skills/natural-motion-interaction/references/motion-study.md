@@ -1,6 +1,6 @@
 # Natural Effects motion adapters
 
-Source snapshot: October 10, 2026, commit `71a83b3`, the Natural Effects source project (`ambershen/dirty-window`). These adapters are separate implementations, not an already unified input library.
+Source snapshot: October 10, 2026, commit `71a83b3`, the private Natural Effects source project. These adapters are separate implementations, not an already unified input library.
 
 ## Source map
 
@@ -33,4 +33,4 @@ Before sharing an adapter across materials, define its units and ownership of mi
 
 ## Source availability
 
-The source map refers to [Natural Effects application](https://github.com/ambershen/dirty-window), a separate application. Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.
+The source map refers to the Natural Effects application, which is maintained in a private repository (live app: https://naturaleffects.vercel.app/). Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.

@@ -1,10 +1,10 @@
 # Ice study implementation reference
 
-Captured from the user-accepted direction in the dirty-window project, October 9, 2026. The user accepted the overall direction after friction writing was added. This records a reusable approach, not a claim of photorealism or confirmed audio quality on every device.
+Captured from the user-accepted direction in the Natural Effects application, October 9, 2026. The user accepted the overall direction after friction writing was added. This records a reusable approach, not a claim of photorealism or confirmed audio quality on every device.
 
 ## Source map
 
-Source project: [Natural Effects application](https://github.com/ambershen/dirty-window). Paths below are relative to that project, whose application code is not bundled with this skill. Inspect the available implementation before copying parameters.
+Source project: the Natural Effects application, maintained in a private repository (live app: https://naturaleffects.vercel.app/). Paths below are relative to that project, whose application code is not bundled with this skill. If you have access to the implementation, inspect it before copying parameters; otherwise use the guidance and tuning notes here.
 
 - `src/ice.ts`: pointer contacts, load accumulation, render composition, reset, audio controls.
 - `src/effects/IceWriting.ts`: half-resolution friction mask and muted underwater light.

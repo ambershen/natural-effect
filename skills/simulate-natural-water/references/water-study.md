@@ -1,6 +1,6 @@
 # Natural Effects water implementation reference
 
-Source snapshot: October 10, 2026, commit `71a83b3` in the Natural Effects source project (`ambershen/dirty-window`). Locate equivalent files if moved and inspect the current implementation before copying values. Entry: `?mode=water` (routed to the water scene by the current fallback); `?mode=classic` is a separate older scene.
+Source snapshot: October 10, 2026, commit `71a83b3` in the private Natural Effects source project. If you have access, locate equivalent files if moved and inspect the current implementation before copying values. Entry: `?mode=water` (routed to the water scene by the current fallback); `?mode=classic` is a separate older scene.
 
 ## Source map
 
@@ -26,4 +26,4 @@ Compare direction reversal and two-finger compression against ordinary dragging.
 
 ## Source availability
 
-The source map refers to [Natural Effects application](https://github.com/ambershen/dirty-window), a separate application. Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.
+The source map refers to the Natural Effects application, which is maintained in a private repository (live app: https://naturaleffects.vercel.app/). Its code and media are not bundled here. Snapshot commit identifiers document provenance and may not be publicly available. If the source is unavailable, use the behavioral guidance and tuning examples without assuming access to those files.
