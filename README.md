@@ -77,7 +77,7 @@ All skill content is written in English. Numeric values describe particular stud
 
 ## Scope and source material
 
-This repository contains skill instructions, reference notes, and original reusable snowflake SVG assets. The original application code, tracking models, and audio assets are maintained separately in the [Natural Effects application](https://github.com/ambershen/dirty-window). Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
+This repository contains skill instructions, reference notes, and original reusable snowflake SVG assets. The original application code, tracking models, and audio assets are maintained separately in a private repository. You can try the live app at https://naturaleffects.vercel.app/. Source maps identify project-relative paths; the skills remain usable when that implementation is unavailable.
 
 Reference notes distinguish accepted behavior from experiments. Breath detection remains experimental, and source or build checks alone do not establish natural sound, reliable gesture recognition, or physical accuracy.
 
